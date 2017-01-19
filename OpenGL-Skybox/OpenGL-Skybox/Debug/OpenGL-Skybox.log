@@ -1,0 +1,13 @@
+﻿  terrain.cpp
+d:\programmer\portfolio\opengl-skybox\opengl-skybox\terrain.cpp(12): warning C4996: 'mbstowcs': This function or variable may be unsafe. Consider using mbstowcs_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\stdlib.h(920): note: 'mbstowcs' 선언을 참조하십시오.
+d:\programmer\portfolio\opengl-skybox\opengl-skybox\terrain.cpp(28): warning C4996: 'mbstowcs': This function or variable may be unsafe. Consider using mbstowcs_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\stdlib.h(920): note: 'mbstowcs' 선언을 참조하십시오.
+  skybox.cpp
+  mouse.cpp
+  main.cpp
+d:\programmer\portfolio\opengl-skybox\opengl-skybox\main.cpp(85): warning C4838: 'double'에서 'GLfloat'(으)로의 변환에는 축소 변환이 필요합니다.
+  camera.cpp
+  코드를 생성하고 있습니다...
+  OpenGL-Skybox.vcxproj -> D:\Programmer\Portfolio\OpenGL-Skybox\Debug\OpenGL-Skybox.exe
+  OpenGL-Skybox.vcxproj -> D:\Programmer\Portfolio\OpenGL-Skybox\Debug\OpenGL-Skybox.pdb (Full PDB)
