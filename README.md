@@ -25,33 +25,26 @@ Skybox에서는 debug 파일의 textures파일들을 불러오고 skybox의 깊�
 
 ## 실행 과정
 
-1. https://drive.google.com/file/d/0B3wz4RsRRCj8WVZMMlJRckhxVTA/view
-위 주소로 이동해 openGL API download
-
-* Windows Visual 2015를 기준으로 .h 헤더 파일은 
-* C:\Program Files (x86)\Windows Kits\8.1\Include\um\gl 에 복사
-* lib 파일은
-* C:\Program Files (x86)\Windows Kits\8.1\Lib\winv6.3\um\x86 에 복사
-* .dll 파일은 C:\Windows\System32 에 복사
-* 64bit OS의 경우 C:\Windows\SysWOW64 에도 복사해준다
-
+1. https://drive.google.com/file/d/0B3wz4RsRRCj8WVZMMlJRckhxVTA/view 위 주소로 이동해 openGL API download
+ * Windows Visual 2015를 기준으로 .h 헤더 파일은 
+ * C:\Program Files (x86)\Windows Kits\8.1\Include\um\gl 에 복사
+ * lib 파일은
+ * C:\Program Files (x86)\Windows Kits\8.1\Lib\winv6.3\um\x86 에 복사
+ * .dll 파일은 C:\Windows\System32 에 복사
+ * 64bit OS의 경우 C:\Windows\SysWOW64 에도 복사해준다
 2. 프로젝트 속성 -> 링커 -> 입력 -> 추가종속 에
-glu32.lib
-glut32.lib
-opengl32.lib
-glaux.lib 를 입력
-
+ * glu32.lib
+ * glut32.lib
+ * opengl32.lib
+ * glaux.lib 를 입력
 3. 파일 실행
-
-* W: 전진 S: 후진 A: 좌향이동 D: 우향이동
-* JL: roll
-* KI: pitch
-* QE: yaw
-
-1,2: solid, wire rendering
+ * W: 전진 S: 후진 A: 좌향이동 D: 우향이동
+ * JL: roll
+ * KI: pitch
+ * QE: yaw
+ * 1,2: solid, wire rendering
 
 ## 실행 결과
 
-[![Demo Doccou alpha](http://j.gifs.com/pgKYG2.jpg)](https://www.youtube.com/watch?v=W_LtUTkPhHc&feature=youtu.be)
-
+[![Demo](http://j.gifs.com/pgKYG2.jpg)](https://www.youtube.com/watch?v=W_LtUTkPhHc&feature=youtu.be)
 (이미지 클릭시 유튜브로 이동합니다)
