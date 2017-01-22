@@ -52,6 +52,6 @@ glaux.lib 를 입력
 
 ## 실행 결과
 
-[![Demo Doccou alpha](http://j.gifs.com/66y8nl.gif)](https://www.youtube.com/watch?v=W_LtUTkPhHc&feature=youtu.be)
+[![Demo Doccou alpha](https://j.gifs.com/pgKYG2.gif)](https://www.youtube.com/watch?v=W_LtUTkPhHc&feature=youtu.be)
 
 (이미지 클릭시 유튜브로 이동합니다)
